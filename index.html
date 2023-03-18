@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container container flex">
+            <div class="logo-part">
+                <img src="./assets/asset 15.svg" alt="logo">
+            </div>
+            <div class="right-part flex">
+                <img src="./assets/asset 30.svg" alt="">
+                <img src="./assets/asset 38.svg" alt="">
+                <img src="./assets/asset 41.svg " id="hamburger" alt="">
+            </div>
+            <div id="nav-links">
+                <ul class="flex">
+                    <li>Store</li>
+                    <li>Mac</li>
+                    <li>iPad</li>
+                    <li>iPhone</li>
+                    <li>AirPods</li>
+                    <li>Watch</li>
+                    <li>TV & Home</li>
+                    <li>Entertainment</li>
+                    <li>Accessories</li>
+                    <li>Support</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sub-heading">
+            <p>Get ₹20000–₹57800 in credit towards iPhone 14 or iPhone 14 Pro when you trade in iPhone 11 or higher.1 Shop iPhone</p>
+        </div>
+    </nav>
+    <div class="hero">
+
+        <div class="image-container flex">
+
+                <img src="./assets/asset 2.png" alt="">
+
+                <a href="https://tv.apple.com/us/show/ted-lasso/umc.cmc.vtoh0mn0xn7t3c643xqonfzy"><button class="stream-now">Stream now</button></a>
+        </div>
+    </div>
+    <main>
+        <div class="big-products-section flex">
+            <div class="iphone-14">
+                <div class="product-desc flex">
+                    <h2>iPhone 14</h2>
+                    <h3>Two great sizes.</h3>
+                    <h3>Now with the splash of yellow.</h3>
+                    <small class="learn-buy">
+                        <a href="#">Learn more</a>
+                        <a href="#">Buy</a>
+                    </small>
+                </div>
+            </div>
+            <hr>
+            <div class="iphone-14-Pro">
+                <div class="product-desc flex" id="font-white">
+                    <h2>iPhone 14 Pro</h2>
+                    <h3>Pro. Beyond.</h3>
+                    <small class="learn-buy">
+                        <a href="#">Learn more</a>
+                        <a href="#">Buy</a>
+                    </small>
+                </div>
+            </div>
+            <hr>
+            <div class="watch-series">
+                <div class="product-desc flex">
+                    <img src="./assets/asset 6.png" alt="">
+                    <h3 id="font-white">A healthy leap ahead.</h3>
+                    <small class="learn-buy">
+                        <a href="#">Learn more</a>
+                        <a href="#">Buy</a>
+                    </small>
+                </div>
+            </div>
+            <hr>
+            <div class="ipad">
+                <div class="product-desc flex">
+                    <h2>iPad</h2>
+                    <h3>Lovable. Drawable. Magical.</h3>
+                    <small class="learn-buy">
+                        <a href="#">Learn more</a>
+                        <a href="#">Buy</a>
+                    </small>
+                </div>
+            </div>
+            <hr>
+            <div class="mac-book">
+                <div class="product-desc flex">
+                    <h2 id="font-white">MacBook Pro</h2>
+                    <h3 id="font-white">Supercharged by M2 Pro and M2 Max.</h3>
+                    <small class="learn-buy">
+                        <a href="#">Learn more</a>
+                        <a href="#">Buy</a>
+                    </small>
+                </div>
+            </div>
+            <hr>
+            <div class="watch-ultra">
+                <div class="product-desc flex">
+                    <img src="./assets/asset 10.png" alt="">
+                    <h3>Adventure Awaits.</h3>
+                    <small class="learn-buy">
+                        <a href="#">Learn more</a>
+                        <a href="#">Buy</a>
+                    </small>
+                </div>
+            </div>
+            <hr>
+            <div class="homepod">
+                <div class="product-desc flex">
+                    <h2 id="font-white">HomePod</h2>
+                    <h3 id="font-white">Profound Sound.</h3>
+                    <small class="learn-buy">
+                        <a href="#">Learn more</a>
+                        <a href="#">Buy</a>
+                    </small>
+                </div>
+            </div>
+            <hr>
+            <div class="airpods">
+                <div class="product-desc flex">
+                    <h2 id="font-white">AirPods Pro</h2>
+                    <h3 id="font-white">Rebuild from the sound up.</h3>
+                    <small class="learn-buy">
+                        <a href="#">Learn more</a>
+                        <a href="#">Buy</a>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="sub-footer container">
+        <p>Trade-in values will vary based on the condition, year and configuration of your trade-in device, and is computed on Maximum Retail Price. You must be at least 18 years old to be eligible to trade in for credit. Not all devices are eligible for credit. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply. Credit applied towards your new iPhone will be based on the received device matching the description you provided when your estimate was made and upon validation by the courier. Apple reserves the right to refuse or limit the quantity of any device for any reason.</p>
+    
+        <p class="info">Copyright &#169; 2023 Apple Inc. All right reserved.</p>
+    <script>
+        const togglebutton = document.getElementById('hamburger')
+        const navLinks = document.getElementById('nav-links')
+
+        togglebutton.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        })
+    </script>
+    
+</body>
+</html>
